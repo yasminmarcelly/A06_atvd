@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+body{
+    margin: 0;
+    height:100%;
+    overflow-y: hidden;
+}
+header{
+    background-color: #05041f;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Ubuntu';
+    font-size: 25px;
+    color: #ffffff;
+    
+}
+.navbar {
+    background-color: #000000;
+    padding: 5px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #830309;
+}
+
+
+section{
+    max-width: 500px;
+    line-height: 1.6;      
+    font-family: 'Inter';
+    font-size: 16px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 200px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+  font-family: 'Ubuntu';
+  
+}
+
+.right_image {
+  width: 500px;
+  height: 500px;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  font-family: 'Inter';
+  background-color: #f5f5f5;
+}
+
+.forms form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.forms input,
+.forms textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Inter';
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.forms input:focus,
+.forms textarea:focus {
+  border-color: #830309;
+  outline: none;
+}
+
+.forms button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #05041f;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Ubuntu';
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.forms button:hover {
+  background-color: #830309;
+}
+
+.forms button span {
+  display: inline-block;
+}
+
+
+
+
+@media screen and (max-width:600px){
+    
+}
